@@ -1,0 +1,67 @@
+.calendar {
+    width: 80%;
+    margin: 20px auto;
+    font-family: inherit;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -2px;
+    background: #ff6900;
+    color: #f1f1f1;
+}
+
+#prevBtn,
+#nextBtn {
+    font-size: 18px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 10%;
+    background: #ff6900;
+    border: none;
+    cursor: pointer;
+    color: #f1f1f1;
+}
+#prevBtn{
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+#nextBtn{
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#monthAndYear {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+}
+
+/* th, */
+td {
+    text-align: center;
+    padding: 2.5rem;
+    font-size: 1.2rem;
+}
+
+th {
+    background-color: #000000;
+    color: #f1f1f1;
+    padding:1rem 2rem;
+}
+
+td {
+    cursor: pointer;
+}
+
+td:hover {
+    background-color: #78bf4d;
+    color: #f1f1f1;
+}
+
+.today {
+    /* background-color: #9af; */
+}
